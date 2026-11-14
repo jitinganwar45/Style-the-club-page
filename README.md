@@ -5,14 +5,14 @@
 <meta charset="UTF-8">
 <title>Coding Club</title>
 <style>
- /* Variables: change a colour here and it changes everywhere */
- :root {
+ 
+ .root {
  --brand: #2f5bea;
  --light: #eef2ff;
  --dark: #1b2440;
  --gap: 16px;
  }
- /* * = every element */
+ 
  * { margin: 0; padding: 0; box-sizing: border-box; }
  body {
  font-family: Georgia, serif;
@@ -21,9 +21,9 @@
  line-height: 1.6;
  padding: var(--gap);
  }
- /* h1 = element selector */
+ 
  h1 { font-size: 2.2rem; letter-spacing: 1px; }
- /* #hero = id selector (only one on the page) */
+ 
  #hero {
  background: var(--brand);
  color: white;
@@ -31,7 +31,7 @@
  padding: 32px var(--gap);
  border-radius: 10px;
  }
- /* .card = class selector (use many times) */
+
  .card {
  background: white;
  padding: var(--gap);
